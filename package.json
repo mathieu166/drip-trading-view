@@ -1,0 +1,36 @@
+{
+    "name": "trading-vue-101",
+    "version": "1.0.0",
+    "description": "Example project for trading-vue-js",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack serve --config webpack/dev.config.js --mode development --port 8090 --progress --hot",
+        "build": "webpack --config webpack/prod.config.js",
+        "start": "node server.js"
+    },
+    "author": "C451",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.12.1",
+        "@babel/preset-env": "^7.12.1",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^5.0.0",
+        "html-webpack-plugin": "^4.5.0",
+        "request": "^2.88.2",
+        "tulind": "^0.8.18",
+        "vue-loader": "^15.9.3",
+        "vue-style-loader": "^4.1.2",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.1.2",
+        "webpack-cli": "^4.3.1",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "axios": "^0.21.4",
+        "trading-vue-js": "^1.0.0",
+        "vue": "^2.6.12",
+        "vuejs-loading-screen": "^1.10.0",
+        "webpack-merge": "^5.8.0"
+    }
+}
