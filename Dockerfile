@@ -1,4 +1,4 @@
-FROM python:2
+FROM nikolaik/python-nodejs:latest
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package*.json ./
